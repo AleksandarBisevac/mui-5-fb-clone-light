@@ -1,0 +1,107 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "username": "Barbie Mila",
+      "userid": 1,
+      "avatarColor": "red",
+      "content": "You'll Endanger Your Friends, Try To Kill Them... Probably Succeed. I'm Sorry. That's Just The Way It Is",
+      "date": "2004-09-10T06:33:33+0200",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTQ5Mjc4OTAzMV5BMl5BanBnXkFtZTcwNjc1MDIzMw@@._V1._SY0.jpg"
+    },
+    {
+      "id": 2,
+      "username": "Just Neo",
+      "userid": 2,
+      "avatarColor": "black",
+      "content": "I know kung-fu",
+      "date": "1999-03-31T06:33:33+0200",
+      "image": "https://www.commonsensemedia.org/sites/default/files/styles/ratio_16_9_large/public/screenshots/csm-movie/the-matrix-ss1.jpg"
+    },
+    {
+      "id": 3,
+      "username": "Badass Tony",
+      "userid": 3,
+      "avatarColor": "white",
+      "content": "Say hello to my little friend!",
+      "date": "1999-12-09T06:33:33+0200",
+      "image": "https://pyxis.nymag.com/v1/imgs/0d1/50f/4d32b735c9886cbcb6f941ebe36f6ed3a7-19-scarface.rsquare.w700.jpg"
+    }
+  ],
+  "friends": [
+    {
+      "name": "Morpheus Sensei",
+      "avatar": "https://wegotthiscovered.com/wp-content/uploads/2021/11/the-matrix-morpheus.jpg",
+      "id": 27,
+      "active": true
+    },
+    {
+      "name": "Pretty Steve",
+      "avatar": "https://i.pinimg.com/originals/1d/f6/85/1df685831e6b433c64d4eb50ae68e5df.jpg",
+      "id": 47,
+      "active": false
+    },
+    {
+      "name": "Obi LAN Kenobi",
+      "avatar": "https://s.yimg.com/uu/api/res/1.2/QHHbB9g2ovzPc_oLUnrRag--~B/Zmk9ZmlsbDtoPTM5MTt3PTY3NTthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2022-05/aff22a20-cbc2-11ec-b9cf-175765bb2d53.cf.jpg",
+      "id": 13,
+      "active": true
+    },
+    {
+      "name": "Zombie Rob",
+      "avatar": "https://sites.google.com/site/razrcorps/RobZombie.jpg",
+      "id": 99,
+      "active": true
+    },
+    {
+      "name": "The Bat Wayne",
+      "avatar": "https://fictionhorizon.com/wp-content/uploads/2021/09/Batman-Nicks-1024x576.jpg",
+      "id": 39,
+      "active": true
+    },
+    {
+      "name": "Gummy Yummy Hisoka",
+      "avatar": "https://static.wikia.nocookie.net/hunterxhunter/images/8/83/Hisoka_smiling_to_Machi.png/revision/latest?cb=20190125164919",
+      "id": 99,
+      "active": true
+    },
+    {
+      "name": "Naughty Eva",
+      "avatar": "https://media.spectacola.ro/image/202010/w600/3e037ce42f230e62b8d619c5a3462f19_91755600.jpg",
+      "id": 69,
+      "active": true
+    }
+  ],
+  "images": [
+    {
+      "id": "img1",
+      "image": "http://cdn.shopify.com/s/files/1/0037/8008/3782/products/dark_knight_EB05041_B_2_framed1-225764_ef7126c6-6068-4371-901f-bd7bf17f540e-796211.jpg?v=1627179314",
+      "title": "The Dark Night"
+    },
+    {
+      "id": "img2",
+      "image": "https://media.karousell.com/media/photos/products/2022/1/21/star_wars_poster_1642756110_3e1b3846_progressive",
+      "title": "Return of the Jedi"
+    },
+    {
+      "id": "img3",
+      "image": "https://media.karousell.com/media/photos/products/2020/10/19/the_pink_panther_cartoon_colle_1603086589_48acb8f8_progressive",
+      "title": "Pink Panther"
+    },
+    {
+      "id": "img4",
+      "image": "https://alternativemovieposters.com/wp-content/uploads/2019/02/kostis_oldboy.jpg",
+      "title": "OldBoy"
+    },
+    {
+      "id": "img5",
+      "image": "https://alternativemovieposters.com/wp-content/uploads/2022/05/Mike-Robinson_Halloween.jpg",
+      "title": "Halloween"
+    },
+    {
+      "id": "img6",
+      "image": "https://alternativemovieposters.com/wp-content/uploads/2021/10/JoshBeamish_FightClub.jpg",
+      "title": "Fight Club"
+    }
+  ]
+}
