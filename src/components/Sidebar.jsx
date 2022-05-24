@@ -19,8 +19,7 @@ import {
   Storefront,
 } from '@mui/icons-material';
 
-const Sidebar = () => {
-  const [mode, setMode] = React.useState('light');
+const Sidebar = ({ setMode, mode }) => {
   return (
     <Box
       flex={1}

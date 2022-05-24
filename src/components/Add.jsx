@@ -60,7 +60,8 @@ const Add = () => {
         aria-labelledby='modal-title'
       >
         <Box
-          bgcolor='white'
+          bgcolor={'background.default'}
+          color={'text.primary'}
           sx={{
             maxWidth: 450,
             width: '80%',
