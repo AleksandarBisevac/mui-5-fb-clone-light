@@ -45,6 +45,10 @@ const UserBox = styled(Box)(({ theme }) => ({
   },
 }));
 
+const NavMenuItem = styled(MenuItem)(({ theme }) => ({
+  cursor: 'pointer',
+}));
+
 const Navbar = () => {
   const [openMenu, setOpenMenu] = React.useState(false);
 
@@ -59,15 +63,15 @@ const Navbar = () => {
           <InputBase placeholder='search...' />
         </Search>
         <Icons>
-          <Badge badgeContent={4} color='error'>
+          <Badge badgeContent={4} color='error' sx={{ cursor: 'pointer' }}>
             <EmailIcon />
           </Badge>
-          <Badge badgeContent={4} color='error'>
+          <Badge badgeContent={4} color='error' sx={{ cursor: 'pointer' }}>
             <Notifications />
           </Badge>
           <Avatar
             src='https://images.pexels.com/photos/2475955/pexels-photo-2475955.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
-            sx={{ width: 30, height: 30 }}
+            sx={{ width: 30, height: 30, cursor: 'pointer' }}
             onClick={(e) => setOpenMenu(true)}
           />
         </Icons>
@@ -93,9 +97,9 @@ const Navbar = () => {
           horizontal: 'right',
         }}
       >
-        <MenuItem>Profile</MenuItem>
-        <MenuItem>My Account</MenuItem>
-        <MenuItem>Logout</MenuItem>
+        <NavMenuItem>Profile</NavMenuItem>
+        <NavMenuItem>My Account</NavMenuItem>
+        <NavMenuItem>Logout</NavMenuItem>
       </Menu>
     </AppBar>
   );
